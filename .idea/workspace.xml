@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c99abf8-cec3-470e-af7f-053dff7ce258" name="Default Changelist" comment="7 hash added" />
+    <list default="true" id="0c99abf8-cec3-470e-af7f-053dff7ce258" name="Default Changelist" comment="8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.58baf0cb05e9f7f3ba68.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/bundle.58baf0cb05e9f7f3ba68.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bundle.58baf0cb05e9f7f3ba68.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/bundle.58baf0cb05e9f7f3ba68.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +90,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="0c99abf8-cec3-470e-af7f-053dff7ce258" name="Default Changelist" comment="" />
@@ -92,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601985565679</updated>
       <workItem from="1601985577321" duration="7543000" />
-      <workItem from="1601994827521" duration="12156000" />
+      <workItem from="1601994827521" duration="13178000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1602001697904</created>
@@ -150,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602008805806</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="8">
+      <created>1602008857905</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1602008857905</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +180,8 @@
     <MESSAGE value="5" />
     <MESSAGE value="6" />
     <MESSAGE value="7 hash added" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 hash added" />
+    <MESSAGE value="8" />
+    <option name="LAST_COMMIT_MESSAGE" value="8" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="121" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602007445884">
@@ -199,13 +216,17 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1602008819732" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1602008807665">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1602008860174">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1602008807665" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1602008860174" />
     <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602003722014">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.873@0.23.1440.873" timestamp="1602003722014" />
+    <state x="558" y="257" key="svn.repositoryBrowser" timestamp="1602009508063">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="558" y="257" key="svn.repositoryBrowser/0.23.1440.873@0.23.1440.873" timestamp="1602009508063" />
   </component>
 </project>
