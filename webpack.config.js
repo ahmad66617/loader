@@ -1,4 +1,6 @@
 const path = require('path');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
@@ -7,6 +9,14 @@ module.exports = {
     output: {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
+    },
+    devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        liveReload: true,
+        hotOnly: true,
+        open: true,
+        compress: true,
+        port: 3000
     },
     module: {
         rules: [
@@ -29,5 +39,9 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: 'bundle.css',
         }),
+        new HTMLWebpackPlugin({
+            template: './src/index.html'
+        }),
+        new CleanWebpackPlugin()
     ],
 };
