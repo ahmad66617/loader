@@ -23,6 +23,7 @@ export default class Render {
         iconWrap.className = 'feedback-icon';
         iconWrap.appendChild(icon);
         this.app.appendChild(iconWrap);
+        return this;
     }
 
     loaderRender() {
@@ -86,15 +87,18 @@ export default class Render {
         itemWrap.appendChild(itemBadge);
         itemWrap.appendChild(divider);
         this.listWrap.appendChild(itemWrap);
+        return this;
     }
 
     resultRender(result) {
         if (result.data.length === 0) return;
         result.data.forEach(item => this._listItem(item));
+        return this;
     }
 
 
     loaderRemove() {
         this.app.querySelector('.container').remove();
+        return this;
     }
 }
