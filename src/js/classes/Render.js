@@ -48,7 +48,7 @@ export default class Render {
         const wrapTitle = document.createElement('div');
         const divider = document.createElement('hr');
         divider.style.width = '100%';
-        wrapTitle.innerHTML = `Изучайте <span style="color: #333bf6">актуальные темы</span>`
+        wrapTitle.innerHTML = `Изучайте <span style="color: #005cfc">актуальные темы</span>`
         wrap.classList.add('list-wrap');
         wrapTitle.classList.add('list-wrap-title');
         wrap.appendChild(wrapTitle);
@@ -82,7 +82,6 @@ export default class Render {
             endCoursesString = 'курса';
         }
         itemDescription.innerHTML = `${coursesNum} ${endCoursesString}`;
-        itemBadge.style.backgroundColor = item.direction.badge.bgColor;
         divider.style.width = '100%';
         itemWrap.prepend(itemTitle);
         itemWrap.append(itemDescription);
