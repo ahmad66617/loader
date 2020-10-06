@@ -39,6 +39,7 @@ export default class Render {
             container.appendChild(circle);
         } while (num <= 5)
         this.app.appendChild(container);
+        this.loader = this.app.querySelector('.container');
         return this;
     }
 
@@ -92,14 +93,13 @@ export default class Render {
     }
 
     resultRender(result) {
-        if (result.data.length === 0) return;
-        result.data.forEach(item => this._listItem(item));
+        if (result.data.length !== 0) result.data.forEach(item => this._listItem(item))
         return this;
     }
 
 
     loaderRemove() {
-        this.app.querySelector('.container').remove();
+        this.loader.remove();
         return this;
     }
 }
