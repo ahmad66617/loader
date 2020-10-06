@@ -1,0 +1,42 @@
+.list-wrap {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 500px;
+  height: 90%;
+  padding: 1em;
+
+  &-title{
+    font-size: 3em;
+    font-weight: bolder;
+    justify-content: space-around;
+  }
+  &-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    height: 4em;
+    &-title{
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    &-description{
+      font-weight: lighter;
+      font-size: 1em;
+    }
+    &-badge{
+      position: absolute;
+      right: .5em;
+      bottom: 1.3em;
+      height: 2em;
+      width: 2em;
+      border-radius: 1em;
+    }
+  }
+}
