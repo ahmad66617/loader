@@ -1,12 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c99abf8-cec3-470e-af7f-053dff7ce258" name="Default Changelist" comment="8">
+    <list default="true" id="0c99abf8-cec3-470e-af7f-053dff7ce258" name="Default Changelist" comment="3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bundle.58baf0cb05e9f7f3ba68.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/bundle.58baf0cb05e9f7f3ba68.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bundle.58baf0cb05e9f7f3ba68.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/bundle.58baf0cb05e9f7f3ba68.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +44,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -30,6 +55,7 @@
   </component>
   <component name="ProjectId" id="1iVGuBHO2FGoLZg7vJDiegU4FyK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -42,7 +68,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -50,14 +76,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/dist" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.prod">
+  <component name="RunManager" selected="npm.start">
     <configuration name="prod" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -84,8 +111,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.prod" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.prod" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +128,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601985565679</updated>
       <workItem from="1601985577321" duration="7543000" />
-      <workItem from="1601994827521" duration="13178000" />
+      <workItem from="1601994827521" duration="18861000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1602001697904</created>
@@ -166,22 +193,165 @@
       <option name="project" value="LOCAL" />
       <updated>1602008857905</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="9">
+      <created>1602009862562</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1602009862562</updated>
+    </task>
+    <task id="LOCAL-00011" summary="10">
+      <created>1602010208573</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1602010208573</updated>
+    </task>
+    <task id="LOCAL-00012" summary="11">
+      <created>1602010451171</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1602010451171</updated>
+    </task>
+    <task id="LOCAL-00013" summary="12">
+      <created>1602010578122</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1602010578122</updated>
+    </task>
+    <task id="LOCAL-00014" summary="13">
+      <created>1602010725286</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1602010725286</updated>
+    </task>
+    <task id="LOCAL-00015" summary="14">
+      <created>1602010869475</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1602010869475</updated>
+    </task>
+    <task id="LOCAL-00016" summary="15">
+      <created>1602010939441</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1602010939441</updated>
+    </task>
+    <task id="LOCAL-00017" summary="15-1">
+      <created>1602010998046</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1602010998046</updated>
+    </task>
+    <task id="LOCAL-00018" summary="16">
+      <created>1602011490798</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1602011490798</updated>
+    </task>
+    <task id="LOCAL-00019" summary="17">
+      <created>1602011593388</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1602011593388</updated>
+    </task>
+    <task id="LOCAL-00020" summary="18">
+      <created>1602011755661</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1602011755661</updated>
+    </task>
+    <task id="LOCAL-00021" summary="19">
+      <created>1602012276314</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1602012276314</updated>
+    </task>
+    <task id="LOCAL-00022" summary="20">
+      <created>1602013725331</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1602013725332</updated>
+    </task>
+    <task id="LOCAL-00023" summary="initial">
+      <created>1602014489291</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1602014489291</updated>
+    </task>
+    <task id="LOCAL-00024" summary="3">
+      <created>1602015003496</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1602015003496</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <MESSAGE value="3" />
     <MESSAGE value="4" />
     <MESSAGE value="5" />
     <MESSAGE value="6" />
     <MESSAGE value="7 hash added" />
     <MESSAGE value="8" />
-    <option name="LAST_COMMIT_MESSAGE" value="8" />
+    <MESSAGE value="9" />
+    <MESSAGE value="10" />
+    <MESSAGE value="11" />
+    <MESSAGE value="12" />
+    <MESSAGE value="13" />
+    <MESSAGE value="14" />
+    <MESSAGE value="15" />
+    <MESSAGE value="15-1" />
+    <MESSAGE value="16" />
+    <MESSAGE value="17" />
+    <MESSAGE value="18" />
+    <MESSAGE value="19" />
+    <MESSAGE value="20" />
+    <MESSAGE value="init" />
+    <MESSAGE value="initial" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="121" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602007445884">
@@ -192,41 +362,53 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="455" y="268" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.873@0.23.1440.873" timestamp="1602001611790" />
-    <state x="596" y="363" key="Github.ShareDialog" timestamp="1602001388045">
+    <state x="100" y="123" width="1240" height="673" key="DiffContextDialog" timestamp="1602010899213">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="596" y="363" key="Github.ShareDialog/0.23.1440.873@0.23.1440.873" timestamp="1602001388045" />
+    <state x="100" y="123" width="1240" height="673" key="DiffContextDialog/0.23.1440.873@0.23.1440.873" timestamp="1602010899213" />
+    <state x="596" y="363" key="Github.ShareDialog" timestamp="1602014058825">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="596" y="363" key="Github.ShareDialog/0.23.1440.873@0.23.1440.873" timestamp="1602014058825" />
     <state x="454" y="171" key="Github.UntrackedFilesDialog" timestamp="1602001419122">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="454" y="171" key="Github.UntrackedFilesDialog/0.23.1440.873@0.23.1440.873" timestamp="1602001419122" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1602008819732">
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1602015722891">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1602008819732" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1602008819731">
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1602015722891" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1602015722890">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1602008819731" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1602008819731">
+    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1602015722890" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1602015722890">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1602008819731" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1602008819732">
+    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1602015722890" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1602015722891">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1602008819732" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1602008860174">
+    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1602015722891" />
+    <state x="360" y="228" key="MultipleFileMergeDialog" timestamp="1602010743124">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1602008860174" />
-    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602003722014">
+    <state x="360" y="228" key="MultipleFileMergeDialog/0.23.1440.873@0.23.1440.873" timestamp="1602010743124" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1602015005252">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.873@0.23.1440.873" timestamp="1602003722014" />
-    <state x="558" y="257" key="svn.repositoryBrowser" timestamp="1602009508063">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1602015005251" />
+    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602010845034">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="558" y="257" key="svn.repositoryBrowser/0.23.1440.873@0.23.1440.873" timestamp="1602009508063" />
+    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.873@0.23.1440.873" timestamp="1602010845034" />
+    <state x="558" y="257" key="svn.repositoryBrowser" timestamp="1602014374391">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="558" y="257" key="svn.repositoryBrowser/0.23.1440.873@0.23.1440.873" timestamp="1602014374391" />
+    <state x="526" y="240" key="svn4idea.import.options" timestamp="1602014372275">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="526" y="240" key="svn4idea.import.options/0.23.1440.873@0.23.1440.873" timestamp="1602014372275" />
   </component>
 </project>

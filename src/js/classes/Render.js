@@ -6,6 +6,7 @@ export default class Render {
 
     init() {
         this[this.component]();
+        return this;
     }
 
     app() {
