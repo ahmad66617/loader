@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c99abf8-cec3-470e-af7f-053dff7ce258" name="Default Changelist" comment="2">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/actions.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/superlinter.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0c99abf8-cec3-470e-af7f-053dff7ce258" name="Default Changelist" comment="3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601985565679</updated>
       <workItem from="1601985577321" duration="7543000" />
-      <workItem from="1601994827521" duration="8602000" />
+      <workItem from="1601994827521" duration="8902000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1602001697904</created>
@@ -103,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602002687029</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3">
+      <created>1602003530467</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602003530467</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +115,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="455" y="268" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602001611790">
@@ -143,9 +147,13 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state width="1398" height="229" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1602002897410" />
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1602002689026">
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2" timestamp="1602003532487">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1602002689026" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.873@0.23.1440.873" timestamp="1602003532487" />
+    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602003722014">
+      <screen x="0" y="23" width="1440" height="873" />
+    </state>
+    <state x="521" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.873@0.23.1440.873" timestamp="1602003722014" />
   </component>
 </project>
