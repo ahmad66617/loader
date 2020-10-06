@@ -7,7 +7,7 @@ module.exports = {
     mode: 'development',
     entry: [path.resolve(__dirname, './src/js/index.js'), path.resolve(__dirname, './src/sass/index.scss')],
     output: {
-        filename: 'bundle.js',
+        filename: 'bundle.[hash].js',
         path: path.resolve(__dirname, 'dist'),
     },
     devServer: {
@@ -37,7 +37,7 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'bundle.css',
+            filename: 'bundle.[hash].css',
         }),
         new HTMLWebpackPlugin({
             template: './src/index.html'
