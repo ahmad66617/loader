@@ -93,7 +93,7 @@ export default class Render {
     }
 
     resultRender(result) {
-        if (result.data.length !== 0) result.data.forEach(item => this._listItem(item))
+        if (result.data.length !== 0) result.data.forEach(item => this._listItem(item));
         return this;
     }
 

@@ -52,6 +52,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1iVGuBHO2FGoLZg7vJDiegU4FyK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -68,6 +69,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.12.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.11.5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -383,22 +386,22 @@
       <screen x="0" y="23" width="1440" height="873" />
     </state>
     <state x="454" y="171" key="Github.UntrackedFilesDialog/0.23.1440.873@0.23.1440.873" timestamp="1602001419122" />
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1602015722891">
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1602017715831">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1602015722891" />
-    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1602015722890">
+    <state width="1398" height="165" key="GridCell.Tab.0.bottom/0.23.1440.873@0.23.1440.873" timestamp="1602017715831" />
+    <state width="1398" height="165" key="GridCell.Tab.0.center" timestamp="1602017715830">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1602015722890" />
-    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1602015722890">
+    <state width="1398" height="165" key="GridCell.Tab.0.center/0.23.1440.873@0.23.1440.873" timestamp="1602017715830" />
+    <state width="1398" height="165" key="GridCell.Tab.0.left" timestamp="1602017715829">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1602015722890" />
-    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1602015722891">
+    <state width="1398" height="165" key="GridCell.Tab.0.left/0.23.1440.873@0.23.1440.873" timestamp="1602017715829" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right" timestamp="1602017715831">
       <screen x="0" y="23" width="1440" height="873" />
     </state>
-    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1602015722891" />
+    <state width="1398" height="165" key="GridCell.Tab.0.right/0.23.1440.873@0.23.1440.873" timestamp="1602017715831" />
     <state x="360" y="228" key="MultipleFileMergeDialog" timestamp="1602010743124">
       <screen x="0" y="23" width="1440" height="873" />
     </state>

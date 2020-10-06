@@ -13,7 +13,7 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, 'dist'),
         liveReload: true,
-        hotOnly: true,
+        hot: true,
         open: true,
         compress: true,
         port: 3000
