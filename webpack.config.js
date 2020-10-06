@@ -8,10 +8,10 @@ module.exports = {
     entry: [path.resolve(__dirname, './src/js/index.js'), path.resolve(__dirname, './src/sass/index.scss')],
     output: {
         filename: 'bundle.[hash].js',
-        path: path.resolve(__dirname, 'docs'),
+        path: path.resolve(__dirname, 'dist'),
     },
     devServer: {
-        contentBase: path.join(__dirname, 'docs'),
+        contentBase: path.join(__dirname, 'dist'),
         liveReload: true,
         hotOnly: true,
         open: true,
